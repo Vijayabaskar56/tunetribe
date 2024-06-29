@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "HelloWorld",
-    "slug": "expo-template-default",
+    "name": "tunetribe",
+    "slug": "tunetribe",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -13,13 +13,15 @@
       "backgroundColor": "#ffffff"
     },
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.vijayabaskar56.tunetribe"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.vijayabaskar56.tunetribe"
     },
     "web": {
       "bundler": "metro",
@@ -31,6 +33,18 @@
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "eas": {
+        "projectId": "270b687a-68c7-4093-ab53-5cbf425026c8"
+      }
+    },
+    "owner": "vijayabaskar56",
+    "updates": {
+      "url": "https://u.expo.dev/270b687a-68c7-4093-ab53-5cbf425026c8"
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
     }
   }
 }
